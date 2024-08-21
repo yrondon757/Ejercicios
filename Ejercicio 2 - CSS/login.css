@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* img{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    width: 25vw;
+    height: 50vh;
+    background-color: rgba(19, 14, 66, 0.747);
+    border-radius: 50px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transform: translate(150%, 50%);   
+}
+
+main header{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(76, 122, 248, 0.747);
+    top: 0;
+    border-radius: 50px 50px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+}
+
+main .label1{
+    color: white;
+}
+
+main .input1{
+    width: 320px;
+    height: 35px;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+#href1{
+    padding-left: 138px;
+    color: white;
+    text-decoration: none;
+}
+
+main #sectionbox{
+    padding-right: 190px;
+    transform: translateY(-55px);
+    color: white;
+    font-size: 15px;
+}
+
+main #checkbox{
+    transform: translateX(-10px);
+}
+
+#section3 button{
+    width: 200px;
+    height: 35px;
+    background-image: linear-gradient(to left, rgb(22, 22, 255), rgb(54, 54, 255), rgb(79, 79, 255), rgb(98, 98, 255), rgb(124, 124, 255), rgb(164, 164, 255));
+    color: white;
+    border-radius: 10px;
+    transform: translateY(-70px);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
