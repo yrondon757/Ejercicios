@@ -47,7 +47,8 @@ main .input1{
     height: 35px;
     padding: 15px;
     border-radius: 10px;
-    border-style: none;
+    border-style: groove;
+    border-color: darkblue;
 }
 
 #href1{
